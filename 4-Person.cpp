@@ -46,15 +46,17 @@ public:
 
 int main()
 {
+    // Creating objects
     Person umut("Umut", "Merkez/Adıyaman", 20, "5343434343");
     Person alperen("Alperen", "Seydişehir/Konya", 20, "59393929193");
     Person talha("Talha", "Eskişehir/Merkez", 25, "5302029495");
 
+    // Show informations
     umut.showPersonInfo();
     alperen.showPersonInfo();
     talha.showPersonInfo();
 
-    // Change a person information:
+    // Change a informations
     umut.changeAddress("Şahinbey/Gaziantep");
     umut.changePhoneNumber("12345678910");
     umut.showPersonInfo();
